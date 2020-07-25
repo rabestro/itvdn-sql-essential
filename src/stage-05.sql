@@ -11,3 +11,13 @@ create table testtable (
 
 insert into testtable (field2) values (1), (2), (3);
 
+-- Найдите и исправьте ошибки (в предположении,
+-- что у таблицы TestTable уже есть столбцы и строки)
+
+
+-- Напишите команду, которая изменяет тип данных поля NewField, которое мы добавляли
+-- в таблицу TestTable в прошлом задании, на VARCHAR(5)
+
+ALTER TABLE testtable
+ALTER COLUMN newfield varchar(5);
+
